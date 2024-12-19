@@ -31,7 +31,7 @@ const createElement = (html, className) => {
 
 const getChatResponse = async (incomingChatDiv) => {
     // https://platform.openai.com/docs/api-reference/edits
-    const API_URL = "https://api.openai.com/v1/completions";
+    const API_URL = "http://195.179.229.119/gpt/api.php?";
     const pElement = document.createElement("p");
 
     const requestOptions = {
